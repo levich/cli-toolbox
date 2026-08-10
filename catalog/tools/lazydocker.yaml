@@ -1,0 +1,13 @@
+id: lazydocker
+name: lazydocker
+summary: TUI для Docker и Docker Compose
+category: dev
+profiles: [dev, admin]
+check: lazydocker
+packages:
+  brew: lazydocker
+custom: lazydocker
+docs_url: https://github.com/jesseduffield/lazydocker
+tips:
+  - Нужен Docker; запуск: lazydocker
+  - Конфиг: ~/.config/lazydocker/config.yml

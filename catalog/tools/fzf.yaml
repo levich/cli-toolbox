@@ -1,0 +1,17 @@
+id: fzf
+name: fzf
+summary: Fuzzy-finder для командной строки
+category: cli
+profiles: [cli, dev]
+check: fzf
+packages:
+  brew: fzf
+  apt: fzf
+  pacman: fzf
+  apk: fzf
+  dnf: fzf
+  zypper: fzf
+docs_url: https://github.com/junegunn/fzf
+tips:
+  - Установите key-bindings: $(brew --prefix)/opt/fzf/install или см. docs пакеты
+  - Полезно: Ctrl-R — поиск по истории, Ctrl-T — файлы

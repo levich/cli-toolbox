@@ -1,0 +1,16 @@
+id: difftastic
+name: difftastic
+summary: Структурный diff для кода (difft)
+category: dev
+profiles: [dev, cli]
+check: difft
+packages:
+  brew: difftastic
+  pacman: difftastic
+  apk: difftastic
+custom: difftastic
+docs_url: https://difftastic.wilfred.me.uk/
+tips:
+  - Команда: difft; для git: git config --global diff.external difft
+  - Или: GIT_EXTERNAL_DIFF=difft git diff
+  - Сравнение файлов: difft file1.rs file2.rs

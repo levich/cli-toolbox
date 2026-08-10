@@ -1,0 +1,17 @@
+id: fd
+name: fd
+summary: Быстрый поиск файлов (замена find)
+category: cli
+profiles: [cli, admin, dev]
+check: fd
+packages:
+  brew: fd
+  apt: fd-find
+  pacman: fd
+  apk: fd
+  dnf: fd-find
+  zypper: fd
+docs_url: https://github.com/sharkdp/fd
+tips:
+  - На Debian/Ubuntu бинарник часто называется fdfind — сделайте alias fd=fdfind
+  - Пример: fd -e rs pattern

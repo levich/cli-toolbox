@@ -1,0 +1,17 @@
+id: mtr
+name: mtr
+summary: traceroute + ping в одном TUI
+category: cli
+profiles: [cli, admin]
+check: mtr
+packages:
+  brew: mtr
+  apt: mtr
+  pacman: mtr
+  apk: mtr
+  dnf: mtr
+  zypper: mtr
+docs_url: https://www.bitwizard.nl/mtr/
+tips:
+  - Запуск: mtr example.com; отчёт: mtr -r -c 10 example.com
+  - На Linux часто нужен setcap/root для raw sockets

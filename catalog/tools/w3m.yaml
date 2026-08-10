@@ -1,0 +1,17 @@
+id: w3m
+name: w3m
+summary: Текстовый TUI-браузер
+category: cli
+profiles: [cli, admin]
+check: w3m
+packages:
+  brew: w3m
+  apt: w3m
+  pacman: w3m
+  apk: w3m
+  dnf: w3m
+  zypper: w3m
+docs_url: https://w3m.sourceforge.net/
+tips:
+  - Запуск: w3m https://example.com; локальный файл: w3m ./page.html
+  - Клавиши: q — выход, Shift-B — назад, Shift-U — URL

@@ -1,0 +1,17 @@
+id: gh
+name: GitHub CLI
+summary: GitHub из командной строки
+category: dev
+profiles: [dev, cli]
+check: gh
+packages:
+  brew: gh
+  apt: gh
+  pacman: github-cli
+  apk: github-cli
+  dnf: gh
+custom: gh
+docs_url: https://cli.github.com/
+tips:
+  - Авторизация: gh auth login
+  - PR: gh pr create; проверки: gh pr checks

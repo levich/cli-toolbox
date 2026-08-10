@@ -1,0 +1,16 @@
+id: python
+name: Python
+summary: Интерпретатор Python 3
+category: dev
+profiles: [dev]
+check: python3
+packages:
+  brew: python
+  apt: python3
+  pacman: python
+  apk: python3
+  dnf: python3
+  zypper: python3
+docs_url: https://docs.python.org/3/
+tips:
+  - Проверка: python3 --version; venv: python3 -m venv .venv

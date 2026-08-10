@@ -1,0 +1,16 @@
+id: kitty
+name: kitty
+summary: Быстрый feature-rich терминал
+category: desktop
+profiles: [desktop]
+check: kitty
+packages:
+  brew: kitty
+  apt: kitty
+  pacman: kitty
+  apk: kitty
+  dnf: kitty
+requires_desktop: true
+docs_url: https://sw.kovidgoyal.net/kitty/
+tips:
+  - Конфиг: ~/.config/kitty/kitty.conf; kitten themes

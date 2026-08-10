@@ -1,0 +1,12 @@
+id: nerdfonts
+name: Nerd Fonts
+summary: Патченные шрифты с иконками для терминала
+category: desktop
+profiles: [shell, desktop, cli]
+check: nerdfonts
+custom: nerdfonts
+docs_url: https://www.nerdfonts.com/
+tips:
+  - После установки выберите шрифт MesloLGS Nerd Font в настройках терминала
+  - Нужен для иконок Powerlevel10k и eza
+  - Каталог шрифтов: https://www.nerdfonts.com/font-downloads

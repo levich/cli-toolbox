@@ -1,0 +1,16 @@
+id: nvtop
+name: nvtop
+summary: TUI-монитор GPU (NVIDIA/AMD/Intel)
+category: cli
+profiles: [cli, admin, dev]
+check: nvtop
+packages:
+  brew: nvtop
+  apt: nvtop
+  pacman: nvtop
+  apk: nvtop
+  dnf: nvtop
+docs_url: https://github.com/Syllo/nvtop
+tips:
+  - Нужны драйверы GPU; на сервере без GPU утилита может не показать устройств
+  - Запуск: nvtop

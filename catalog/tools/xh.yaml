@@ -1,0 +1,15 @@
+id: xh
+name: xh
+summary: Быстрый HTTP-клиент (дружелюбный curl)
+category: cli
+profiles: [cli, dev, admin]
+check: xh
+packages:
+  brew: xh
+  pacman: xh
+  apk: xh
+custom: xh
+docs_url: https://github.com/ducaale/xh
+tips:
+  - Примеры: xh httpbin.org/get; xh -f POST httpbin.org/post name=John
+  - Алиас: alias http=xh

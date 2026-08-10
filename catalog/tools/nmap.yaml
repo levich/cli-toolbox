@@ -1,0 +1,17 @@
+id: nmap
+name: nmap
+summary: Сканер сети и портов
+category: cli
+profiles: [cli, admin]
+check: nmap
+packages:
+  brew: nmap
+  apt: nmap
+  pacman: nmap
+  apk: nmap
+  dnf: nmap
+  zypper: nmap
+docs_url: https://nmap.org/
+tips:
+  - Быстрый скан: nmap -sV host; осторожно на чужих сетях
+  - Используйте только на своих системах/с разрешением

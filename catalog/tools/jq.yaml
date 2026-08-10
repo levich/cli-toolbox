@@ -1,0 +1,16 @@
+id: jq
+name: jq
+summary: Процессор JSON в командной строке
+category: cli
+profiles: [cli, dev]
+check: jq
+packages:
+  brew: jq
+  apt: jq
+  pacman: jq
+  apk: jq
+  dnf: jq
+  zypper: jq
+docs_url: https://jqlang.github.io/jq/
+tips:
+  - Шпаргалка: jq --help; часто используют с curl … | jq

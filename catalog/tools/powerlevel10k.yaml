@@ -1,0 +1,13 @@
+id: powerlevel10k
+name: Powerlevel10k
+summary: Быстрый и красивый theme для zsh
+category: shell
+profiles: [shell]
+check: powerlevel10k
+needs: [oh-my-zsh, git]
+custom: powerlevel10k
+docs_url: https://github.com/romkatv/powerlevel10k
+tips:
+  - В ~/.zshrc: ZSH_THEME="powerlevel10k/powerlevel10k"
+  - Запустите мастер: p10k configure
+  - Нужен Nerd Font в терминале для иконок

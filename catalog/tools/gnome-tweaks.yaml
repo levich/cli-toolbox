@@ -1,0 +1,17 @@
+id: gnome-tweaks
+name: GNOME Tweaks
+summary: Дополнительные настройки GNOME
+category: desktop
+profiles: [desktop]
+check: gnome-tweaks
+packages:
+  apt: gnome-tweaks
+  pacman: gnome-tweaks
+  dnf: gnome-tweaks
+  zypper: gnome-tweaks
+platforms: [linux]
+requires_desktop: true
+skip_on: [macos, alpine]
+docs_url: https://wiki.gnome.org/Apps/Tweaks
+tips:
+  - Нужна сессия GNOME; расширения — через Extension Manager

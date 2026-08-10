@@ -1,0 +1,13 @@
+id: nvitop
+name: nvitop
+summary: Интерактивный монитор NVIDIA GPU (Python)
+category: cli
+profiles: [cli, admin, dev]
+check: nvitop
+needs: [python, pip]
+custom: nvitop
+docs_url: https://github.com/XuehaiPan/nvitop
+tips:
+  - Требует NVIDIA-драйвер и nvidia-smi
+  - Запуск: nvitop; одноразовый снимок: nvitop -m
+  - Предпочтительна установка через pip/uv в user-окружение

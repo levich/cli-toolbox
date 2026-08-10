@@ -1,0 +1,17 @@
+id: tcpdump
+name: tcpdump
+summary: Захват и анализ сетевого трафика
+category: cli
+profiles: [cli, admin]
+check: tcpdump
+packages:
+  brew: tcpdump
+  apt: tcpdump
+  pacman: tcpdump
+  apk: tcpdump
+  dnf: tcpdump
+  zypper: tcpdump
+docs_url: https://www.tcpdump.org/
+tips:
+  - Пример: sudo tcpdump -i any port 443 -nn
+  - Запись в файл: sudo tcpdump -w capture.pcap

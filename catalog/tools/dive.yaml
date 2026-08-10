@@ -1,0 +1,13 @@
+id: dive
+name: dive
+summary: Анализ слоёв Docker-образов
+category: dev
+profiles: [dev, admin]
+check: dive
+packages:
+  brew: dive
+custom: dive
+docs_url: https://github.com/wagoodman/dive
+tips:
+  - Пример: dive myimage:latest
+  - Нужен Docker

@@ -1,0 +1,15 @@
+id: duf
+name: duf
+summary: Удобный просмотр использования дисков
+category: cli
+profiles: [cli]
+check: duf
+packages:
+  brew: duf
+  apt: duf
+  pacman: duf
+  apk: duf
+  dnf: duf
+docs_url: https://github.com/muesli/duf
+tips:
+  - Полезные флаги: duf --only local

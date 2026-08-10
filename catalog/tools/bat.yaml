@@ -1,0 +1,17 @@
+id: bat
+name: bat
+summary: cat с подсветкой синтаксиса и Git
+category: cli
+profiles: [cli, dev]
+check: bat
+packages:
+  brew: bat
+  apt: bat
+  pacman: bat
+  apk: bat
+  dnf: bat
+  zypper: bat
+docs_url: https://github.com/sharkdp/bat
+tips:
+  - Алиас: alias cat='bat'
+  - Тема: export BAT_THEME='TwoDark' или bat --list-themes

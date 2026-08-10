@@ -1,0 +1,17 @@
+id: curl
+name: curl
+summary: Передача данных по URL
+category: cli
+profiles: [cli, admin, dev, shell]
+check: curl
+packages:
+  brew: curl
+  apt: curl
+  pacman: curl
+  apk: curl
+  dnf: curl
+  zypper: curl
+docs_url: https://curl.se/
+tips:
+  - JSON API: curl -fsSL URL | jq
+  - Заголовки: curl -I URL

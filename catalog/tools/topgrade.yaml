@@ -1,0 +1,14 @@
+id: topgrade
+name: topgrade
+summary: Обновление всего ПО одной командой
+category: dev
+profiles: [dev]
+check: topgrade
+packages:
+  brew: topgrade
+  pacman: topgrade
+  apk: topgrade
+custom: topgrade
+docs_url: https://github.com/topgrade-rs/topgrade
+tips:
+  - Конфиг: ~/.config/topgrade.toml; сначала topgrade --dry-run

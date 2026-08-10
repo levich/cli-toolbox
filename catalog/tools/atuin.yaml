@@ -1,0 +1,13 @@
+id: atuin
+name: atuin
+summary: Умная синхронизируемая история shell
+category: shell
+profiles: [shell, cli, dev]
+check: atuin
+packages:
+  brew: atuin
+custom: atuin
+docs_url: https://docs.atuin.sh/
+tips:
+  - В ~/.zshrc: eval "$(atuin init zsh)"
+  - Импорт истории: atuin import auto; синк: atuin register / atuin login

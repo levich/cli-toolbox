@@ -1,0 +1,17 @@
+id: rsync
+name: rsync
+summary: Эффективная синхронизация файлов
+category: cli
+profiles: [cli, admin, dev]
+check: rsync
+packages:
+  brew: rsync
+  apt: rsync
+  pacman: rsync
+  apk: rsync
+  dnf: rsync
+  zypper: rsync
+docs_url: https://rsync.samba.org/
+tips:
+  - Пример: rsync -avh --progress src/ user@host:dst/
+  - Dry-run: rsync -avhn src/ dst/

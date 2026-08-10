@@ -1,0 +1,13 @@
+id: postman
+name: Postman
+summary: Платформа для разработки и тестирования API
+category: desktop
+profiles: [desktop]
+check: postman
+packages:
+  brew: postman
+custom: postman
+requires_desktop: true
+docs_url: https://learning.postman.com/docs/
+tips:
+  - Войдите в аккаунт для синхронизации коллекций

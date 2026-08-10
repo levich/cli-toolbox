@@ -1,0 +1,13 @@
+id: dbeaver
+name: DBeaver
+summary: Универсальный GUI-клиент для БД
+category: desktop
+profiles: [desktop]
+check: dbeaver
+packages:
+  brew: dbeaver-community
+custom: dbeaver
+requires_desktop: true
+docs_url: https://dbeaver.com/docs/
+tips:
+  - Драйверы БД скачиваются при первом подключении

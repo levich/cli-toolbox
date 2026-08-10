@@ -1,0 +1,17 @@
+id: zsh
+name: zsh
+summary: Мощная интерактивная оболочка
+category: shell
+profiles: [shell]
+check: zsh
+packages:
+  brew: zsh
+  apt: zsh
+  pacman: zsh
+  apk: zsh
+  dnf: zsh
+  zypper: zsh
+docs_url: https://www.zsh.org/
+tips:
+  - Сделайте zsh оболочкой по умолчанию: chsh -s $(which zsh)
+  - Скопируйте /etc/zsh/zshrc или создайте ~/.zshrc

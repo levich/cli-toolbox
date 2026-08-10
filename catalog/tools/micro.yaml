@@ -1,0 +1,15 @@
+id: micro
+name: micro
+summary: Простой терминальный текстовый редактор
+category: cli
+profiles: [cli]
+check: micro
+packages:
+  brew: micro
+  apt: micro
+  pacman: micro
+  apk: micro
+  dnf: micro
+docs_url: https://micro-editor.github.io/
+tips:
+  - Плагины: micro -plugin install …; конфиг ~/.config/micro/settings.json

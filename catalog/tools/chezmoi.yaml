@@ -1,0 +1,18 @@
+id: chezmoi
+name: chezmoi
+summary: Менеджер dotfiles между машинами
+category: shell
+profiles: [shell, admin]
+check: chezmoi
+needs: [git]
+packages:
+  brew: chezmoi
+  apt: chezmoi
+  pacman: chezmoi
+  apk: chezmoi
+  dnf: chezmoi
+  zypper: chezmoi
+docs_url: https://www.chezmoi.io/
+tips:
+  - Инициализация: chezmoi init; применение: chezmoi apply
+  - Статус: chezmoi status; редактирование: chezmoi edit <file>

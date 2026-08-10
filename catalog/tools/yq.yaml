@@ -1,0 +1,15 @@
+id: yq
+name: yq
+summary: jq-подобный процессор YAML/XML
+category: cli
+profiles: [cli, dev]
+check: yq
+packages:
+  brew: yq
+  apt: yq
+  pacman: yq
+  apk: yq
+  dnf: yq
+docs_url: https://github.com/mikefarah/yq
+tips:
+  - Это mikefarah/yq (не Python yq); синтаксис близок к jq

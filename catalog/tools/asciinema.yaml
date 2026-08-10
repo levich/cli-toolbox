@@ -1,0 +1,16 @@
+id: asciinema
+name: asciinema
+summary: Запись и публикация сессий терминала
+category: cli
+profiles: [cli, dev]
+check: asciinema
+packages:
+  brew: asciinema
+  apt: asciinema
+  pacman: asciinema
+  apk: asciinema
+  dnf: asciinema
+custom: asciinema
+docs_url: https://docs.asciinema.org/
+tips:
+  - Запись: asciinema rec demo.cast; воспроизведение: asciinema play demo.cast

@@ -1,0 +1,17 @@
+id: iproute2
+name: iproute2
+summary: Современные сетевые утилиты (ip, ss, tc)
+category: cli
+profiles: [cli, admin]
+check: ip
+packages:
+  apt: iproute2
+  pacman: iproute2
+  apk: iproute2
+  dnf: iproute2
+  zypper: iproute2
+skip_on: [macos]
+docs_url: https://wiki.linuxfoundation.org/networking/iproute2
+tips:
+  - Основные команды: ip a, ip r, ss -tulpn
+  - Предпочтительнее классического net-tools на Linux

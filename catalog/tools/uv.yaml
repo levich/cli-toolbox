@@ -1,0 +1,13 @@
+id: uv
+name: uv
+summary: Быстрый менеджер Python-пакетов и окружений
+category: dev
+profiles: [dev]
+check: uv
+packages:
+  brew: uv
+custom: uv
+docs_url: https://docs.astral.sh/uv/
+tips:
+  - Добавьте ~/.local/bin в PATH если нужно
+  - Быстрый старт: uv init && uv add requests

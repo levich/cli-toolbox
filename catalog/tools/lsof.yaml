@@ -1,0 +1,16 @@
+id: lsof
+name: lsof
+summary: Список открытых файлов и портов
+category: cli
+profiles: [cli, admin]
+check: lsof
+packages:
+  brew: lsof
+  apt: lsof
+  pacman: lsof
+  apk: lsof
+  dnf: lsof
+  zypper: lsof
+docs_url: https://github.com/lsof-org/lsof
+tips:
+  - Порт: sudo lsof -i :8080; файл: lsof /path/to/file

@@ -1,0 +1,16 @@
+id: net-tools
+name: net-tools
+summary: Классические сетевые утилиты (ifconfig, netstat)
+category: cli
+profiles: [cli]
+check: ifconfig
+packages:
+  brew: net-tools
+  apt: net-tools
+  pacman: net-tools
+  apk: net-tools
+  dnf: net-tools
+  zypper: net-tools
+docs_url: https://en.wikipedia.org/wiki/Net-tools
+tips:
+  - На новых системах часто предпочитают ip/ss из iproute2

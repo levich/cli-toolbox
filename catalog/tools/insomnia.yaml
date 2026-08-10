@@ -1,0 +1,13 @@
+id: insomnia
+name: Insomnia
+summary: HTTP-клиент для API
+category: desktop
+profiles: [desktop]
+check: insomnia
+packages:
+  brew: insomnia
+custom: insomnia
+requires_desktop: true
+docs_url: https://docs.insomnia.rest/
+tips:
+  - Импорт OpenAPI/коллекций через UI

@@ -1,0 +1,17 @@
+id: ripgrep
+name: ripgrep
+summary: Быстрый поиск по коду (rg)
+category: cli
+profiles: [cli, dev]
+check: rg
+packages:
+  brew: ripgrep
+  apt: ripgrep
+  pacman: ripgrep
+  apk: ripgrep
+  dnf: ripgrep
+  zypper: ripgrep
+docs_url: https://github.com/BurntSushi/ripgrep
+tips:
+  - Алиас: alias grep='rg'
+  - Игнор: создайте ~/.ignore или используйте .gitignore

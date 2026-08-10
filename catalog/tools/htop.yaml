@@ -1,0 +1,16 @@
+id: htop
+name: htop
+summary: Интерактивный монитор процессов
+category: cli
+profiles: [cli, admin]
+check: htop
+packages:
+  brew: htop
+  apt: htop
+  pacman: htop
+  apk: htop
+  dnf: htop
+  zypper: htop
+docs_url: https://htop.dev/
+tips:
+  - Запуск: htop; F2 — настройка; F9 — kill

@@ -1,0 +1,17 @@
+id: neovim
+name: Neovim
+summary: Расширяемый Vim-based редактор
+category: dev
+profiles: [dev]
+check: nvim
+packages:
+  brew: neovim
+  apt: neovim
+  pacman: neovim
+  apk: neovim
+  dnf: neovim
+  zypper: neovim
+docs_url: https://neovim.io/doc/
+tips:
+  - Конфиг: ~/.config/nvim/; популярны LazyVim / kickstart.nvim
+  - Проверка: nvim --version

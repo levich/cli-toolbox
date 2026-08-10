@@ -1,0 +1,13 @@
+id: bitwarden
+name: Bitwarden CLI
+summary: CLI менеджера паролей Bitwarden (bw)
+category: cli
+profiles: [cli, admin, desktop]
+check: bw
+packages:
+  brew: bitwarden-cli
+custom: bitwarden
+docs_url: https://bitwarden.com/help/cli/
+tips:
+  - bw login && export BW_SESSION="$(bw unlock --raw)"
+  - Синхронизация: bw sync; поиск: bw list items --search …

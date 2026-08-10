@@ -1,0 +1,12 @@
+id: nala
+name: nala
+summary: Удобный фронтенд для apt
+category: cli
+profiles: [cli]
+check: nala
+packages:
+  apt: nala
+platforms: [debian, ubuntu]
+docs_url: https://gitlab.com/volian/nala
+tips:
+  - Только Debian/Ubuntu: sudo nala update && sudo nala upgrade

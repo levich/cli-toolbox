@@ -1,0 +1,17 @@
+id: tmux
+name: tmux
+summary: Мультиплексор терминала (сессии и сплиты)
+category: cli
+profiles: [cli, admin, dev, shell]
+check: tmux
+packages:
+  brew: tmux
+  apt: tmux
+  pacman: tmux
+  apk: tmux
+  dnf: tmux
+  zypper: tmux
+docs_url: https://github.com/tmux/tmux/wiki
+tips:
+  - База: tmux new -s main; отсоединение Ctrl-b d; список: tmux ls
+  - Конфиг: ~/.tmux.conf

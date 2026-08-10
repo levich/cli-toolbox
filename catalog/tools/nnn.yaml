@@ -1,0 +1,15 @@
+id: nnn
+name: nnn
+summary: Лёгкий терминальный файловый менеджер
+category: cli
+profiles: [cli]
+check: nnn
+packages:
+  brew: nnn
+  apt: nnn
+  pacman: nnn
+  apk: nnn
+  dnf: nnn
+docs_url: https://github.com/jarun/nnn
+tips:
+  - Плагины и закладки: см. nnn -h; часто export NNN_OPTS='e'

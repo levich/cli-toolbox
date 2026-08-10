@@ -1,0 +1,15 @@
+id: lazygit
+name: lazygit
+summary: TUI для Git
+category: dev
+profiles: [dev, admin]
+check: lazygit
+packages:
+  brew: lazygit
+  apt: lazygit
+  pacman: lazygit
+  apk: lazygit
+  dnf: lazygit
+docs_url: https://github.com/jesseduffield/lazygit
+tips:
+  - Конфиг: ~/.config/lazygit/config.yml; запуск в репозитории: lazygit

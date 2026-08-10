@@ -1,0 +1,15 @@
+id: btop
+name: btop
+summary: Ресурс-монитор с красивым TUI
+category: cli
+profiles: [cli]
+check: btop
+packages:
+  brew: btop
+  apt: btop
+  pacman: btop
+  apk: btop
+  dnf: btop
+docs_url: https://github.com/aristocratos/btop
+tips:
+  - Конфиг: ~/.config/btop/btop.conf; смена темы в UI

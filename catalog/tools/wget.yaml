@@ -1,0 +1,16 @@
+id: wget
+name: wget
+summary: Загрузка файлов по HTTP/FTP
+category: cli
+profiles: [cli, admin, dev]
+check: wget
+packages:
+  brew: wget
+  apt: wget
+  pacman: wget
+  apk: wget
+  dnf: wget
+  zypper: wget
+docs_url: https://www.gnu.org/software/wget/
+tips:
+  - Пример: wget -c URL; зеркало: wget -m -p -E -k URL

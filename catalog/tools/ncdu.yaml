@@ -1,0 +1,16 @@
+id: ncdu
+name: ncdu
+summary: Интерактивный анализ места на диске
+category: cli
+profiles: [cli]
+check: ncdu
+packages:
+  brew: ncdu
+  apt: ncdu
+  pacman: ncdu
+  apk: ncdu
+  dnf: ncdu
+  zypper: ncdu
+docs_url: https://dev.yorhel.nl/ncdu
+tips:
+  - Запуск от корня осторожно: sudo ncdu /

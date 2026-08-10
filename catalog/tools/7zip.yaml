@@ -1,0 +1,18 @@
+id: 7zip
+name: 7-Zip
+summary: Архиватор 7-Zip (7z / 7zz)
+category: cli
+profiles: [cli, admin]
+check: 7z
+packages:
+  brew: sevenzip
+  apt: p7zip-full
+  pacman: p7zip
+  apk: p7zip
+  dnf: p7zip
+  zypper: p7zip
+docs_url: https://www.7-zip.org/
+tips:
+  - Команды: 7z или 7zz (Homebrew sevenzip)
+  - Распаковка: 7z x archive.7z
+  - Создание: 7z a archive.7z dir/

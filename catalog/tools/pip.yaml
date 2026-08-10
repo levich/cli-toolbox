@@ -1,0 +1,17 @@
+id: pip
+name: pip
+summary: Установщик пакетов Python
+category: dev
+profiles: [dev]
+check: pip3
+needs: [python]
+packages:
+  brew: python
+  apt: python3-pip
+  pacman: python-pip
+  apk: py3-pip
+  dnf: python3-pip
+  zypper: python3-pip
+docs_url: https://pip.pypa.io/
+tips:
+  - Предпочтительно: python3 -m pip …; для изоляции — venv или uv

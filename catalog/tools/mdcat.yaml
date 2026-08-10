@@ -1,0 +1,13 @@
+id: mdcat
+name: mdcat
+summary: Просмотр Markdown в терминале
+category: cli
+profiles: [cli, dev]
+check: mdcat
+packages:
+  brew: mdcat
+  pacman: mdcat
+custom: mdcat
+docs_url: https://github.com/swsnr/mdcat
+tips:
+  - Пример: mdcat README.md; пайп: mdcat < notes.md

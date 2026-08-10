@@ -1,0 +1,15 @@
+id: eza
+name: eza
+summary: Современная замена ls
+category: cli
+profiles: [cli]
+check: eza
+packages:
+  brew: eza
+  apt: eza
+  pacman: eza
+  apk: eza
+  dnf: eza
+docs_url: https://github.com/eza-community/eza
+tips:
+  - Алиасы: alias ls='eza' alias ll='eza -la' alias tree='eza --tree'

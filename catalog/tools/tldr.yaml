@@ -1,0 +1,17 @@
+id: tldr
+name: tldr
+summary: Краткие примеры команд (tealdeer/tldr)
+category: cli
+profiles: [cli, admin, dev, shell]
+check: tldr
+packages:
+  brew: tealdeer
+  apt: tldr
+  pacman: tealdeer
+  apk: tealdeer
+  dnf: tealdeer
+custom: tldr
+docs_url: https://tldr.sh/
+tips:
+  - Обновите кэш: tldr --update
+  - Пример: tldr tar

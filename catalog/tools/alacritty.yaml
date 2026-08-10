@@ -1,0 +1,16 @@
+id: alacritty
+name: Alacritty
+summary: GPU-ускоренный терминал
+category: desktop
+profiles: [desktop]
+check: alacritty
+packages:
+  brew: alacritty
+  pacman: alacritty
+  apk: alacritty
+  dnf: alacritty
+custom: alacritty
+requires_desktop: true
+docs_url: https://alacritty.org/
+tips:
+  - Конфиг: ~/.config/alacritty/alacritty.toml

@@ -1,0 +1,17 @@
+id: git
+name: git
+summary: Система контроля версий
+category: dev
+profiles: [dev, shell, admin]
+check: git
+packages:
+  brew: git
+  apt: git
+  pacman: git
+  apk: git
+  dnf: git
+  zypper: git
+docs_url: https://git-scm.com/doc
+tips:
+  - Базовая настройка: git config --global user.name '…' и user.email
+  - Удобно: git config --global init.defaultBranch main

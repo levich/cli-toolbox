@@ -1,0 +1,16 @@
+id: delta
+name: delta
+summary: Красивый git-diff / pager
+category: dev
+profiles: [dev, cli, admin]
+check: delta
+packages:
+  brew: git-delta
+  apt: git-delta
+  pacman: git-delta
+  apk: delta
+  dnf: git-delta
+docs_url: https://github.com/dandavison/delta
+tips:
+  - В ~/.gitconfig: [core] pager = delta; [interactive] diffFilter = delta --color-only
+  - Хорошо сочетается с lazygit

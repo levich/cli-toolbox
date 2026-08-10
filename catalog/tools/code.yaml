@@ -1,0 +1,13 @@
+id: code
+name: Visual Studio Code
+summary: Редактор кода от Microsoft
+category: desktop
+profiles: [dev, desktop]
+check: code
+packages:
+  brew: visual-studio-code
+custom: code
+docs_url: https://code.visualstudio.com/docs
+tips:
+  - CLI code в PATH (на macOS: Command Palette → Shell Command: Install 'code')
+  - Настройки синхронизируйте через Settings Sync

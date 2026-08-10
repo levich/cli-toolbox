@@ -1,0 +1,17 @@
+id: iperf
+name: iperf3
+summary: Измерение пропускной способности сети
+category: cli
+profiles: [cli, admin]
+check: iperf3
+packages:
+  brew: iperf3
+  apt: iperf3
+  pacman: iperf3
+  apk: iperf3
+  dnf: iperf3
+  zypper: iperf3
+docs_url: https://iperf.fr/
+tips:
+  - Сервер: iperf3 -s; клиент: iperf3 -c <host>
+  - UDP-тест: iperf3 -c <host> -u -b 100M

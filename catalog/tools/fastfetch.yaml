@@ -1,0 +1,15 @@
+id: fastfetch
+name: fastfetch
+summary: Быстрый вывод системной информации
+category: cli
+profiles: [cli]
+check: fastfetch
+packages:
+  brew: fastfetch
+  apt: fastfetch
+  pacman: fastfetch
+  apk: fastfetch
+  dnf: fastfetch
+docs_url: https://github.com/fastfetch-cli/fastfetch
+tips:
+  - Конфиг: ~/.config/fastfetch/config.jsonc (fastfetch --gen-config)

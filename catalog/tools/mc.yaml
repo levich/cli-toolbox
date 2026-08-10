@@ -1,0 +1,16 @@
+id: mc
+name: Midnight Commander
+summary: Двухпанельный файловый менеджер
+category: cli
+profiles: [cli]
+check: mc
+packages:
+  brew: midnight-commander
+  apt: mc
+  pacman: mc
+  apk: mc
+  dnf: mc
+  zypper: mc
+docs_url: https://midnight-commander.org/
+tips:
+  - Пользовательский конфиг: ~/.config/mc/; F9 — меню

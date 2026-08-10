@@ -1,0 +1,16 @@
+id: iotop
+name: iotop
+summary: Мониторинг дискового I/O по процессам
+category: cli
+profiles: [cli]
+check: iotop
+packages:
+  apt: iotop
+  pacman: iotop
+  apk: iotop
+  dnf: iotop
+  zypper: iotop
+skip_on: [macos]
+docs_url: https://man7.org/linux/man-pages/man8/iotop.8.html
+tips:
+  - Нужны права root: sudo iotop; только активные: sudo iotop -o

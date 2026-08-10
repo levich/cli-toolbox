@@ -1,0 +1,12 @@
+id: oh-my-zsh
+name: Oh My Zsh
+summary: Фреймворк конфигурации zsh
+category: shell
+profiles: [shell]
+check: oh-my-zsh
+needs: [zsh, git]
+custom: oh-my-zsh
+docs_url: https://ohmyz.sh/
+tips:
+  - Плагины задаются в ~/.zshrc: plugins=(git fzf zoxide)
+  - Обновление: omz update

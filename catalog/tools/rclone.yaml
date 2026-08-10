@@ -1,0 +1,17 @@
+id: rclone
+name: rclone
+summary: rsync для облачных хранилищ
+category: cli
+profiles: [cli, admin, dev]
+check: rclone
+packages:
+  brew: rclone
+  apt: rclone
+  pacman: rclone
+  apk: rclone
+  dnf: rclone
+custom: rclone
+docs_url: https://rclone.org/
+tips:
+  - Настройка: rclone config
+  - Пример: rclone copy /data remote:backup -P

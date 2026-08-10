@@ -1,0 +1,12 @@
+id: cursor
+name: Cursor
+summary: AI-ориентированный редактор кода
+category: desktop
+profiles: [dev, desktop]
+check: cursor
+packages:
+  brew: cursor
+custom: cursor
+docs_url: https://cursor.com/docs
+tips:
+  - Убедитесь что cursor в PATH (~/.local/bin на Linux)

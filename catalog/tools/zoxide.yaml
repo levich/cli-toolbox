@@ -1,0 +1,17 @@
+id: zoxide
+name: zoxide
+summary: Умная замена cd
+category: cli
+profiles: [cli]
+check: zoxide
+packages:
+  brew: zoxide
+  apt: zoxide
+  pacman: zoxide
+  apk: zoxide
+  dnf: zoxide
+docs_url: https://github.com/ajeetdsouza/zoxide
+tips:
+  - Добавьте в ~/.zshrc: eval "$(zoxide init zsh)"
+  - Для bash: eval "$(zoxide init bash)"
+  - Интерактивный выбор: zi (нужен fzf)
